@@ -8,13 +8,6 @@ pipeline{
 
 	stages {
 	    
-	    stage('gitclone') {
-
-			steps {
-				git 'https://github.com/ARYA9357/nodeapp_test.git'
-			}
-		}
-
 		stage('Build') {
 
 			steps {
